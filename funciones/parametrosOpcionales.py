@@ -1,6 +1,6 @@
 # Para que un parámetro sea opcional ponemos = luego del parámetro seguido del valor 
 # default
-# Por convensión poner el nombreParámetro=valor sin espacios, esto debe estar junto
+# Por convención poner el nombreParámetro=valor sin espacios, esto debe estar junto
 # cuando declaramos un valor por default pi=3.14
 def area_circulo(radio, pi=3.14):
     # area de un círculo es pi x radio al cuadrado
