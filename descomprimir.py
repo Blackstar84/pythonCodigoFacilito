@@ -80,7 +80,10 @@ print(diez)
 
 # Con esto omitiremos la creación del elemento en el índice 1 
 # entonces se crearán variables para el 1, 3, 4, 9, 10
+numeros = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 uno, _, tres, cuatro, *resto_valores, nueve, diez = numeros
+
+
 
 print(uno)
 print(tres)
