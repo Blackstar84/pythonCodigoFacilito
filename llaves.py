@@ -30,7 +30,7 @@ print(valores_tupla)
 
 # Para obtener los items utilizamos el método items que devolverá un objeto de tipo dict_items, donde encontraremos 
 # un listado que almacena tuplas, estas tuplas tendrán dos valores, el pimer valor hace referencia al key y 
-# el segundo al valor del mismo
+# el segundo el valor del mismo
 
 items = diccionario.items()
 
@@ -41,3 +41,8 @@ print(items)
 items_tupla = tuple(diccionario.items())
 
 print(items_tupla)
+
+# Para acceder al valor por ejemplo de la primera tupla podemos hacer lo siguiente
+print(items_tupla[0][1])
+
+# Con esto accedemos al valor 1 de la tupla en lugar de a
