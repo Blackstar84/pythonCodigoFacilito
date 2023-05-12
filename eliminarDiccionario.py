@@ -2,7 +2,7 @@ diccionario = {'a': 1, 'b': 2, 'c': 3, 'd': 4}
 
 print(len(diccionario))
 
-# Para eliminar utilizamos la palabra reservada del seguido del diccionario y la llave de la cual deseamos eliminar
+# Para eliminar utilizamos la palabra reservada del seguido el nombre del diccionario y la llave de la cual deseamos eliminar
 # 1era Forma
 del diccionario['d']
 
