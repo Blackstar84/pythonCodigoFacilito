@@ -31,7 +31,7 @@ print(f'El resultado es: {result[0]} {result[1]}')
 # n1 + n2
 # en la variable mensaje se almacenará el valor del String 'La función retorna 2 valores'
 
-resultado, mensaje = result = suma(numero_uno, numero_dos)
+resultado, mensaje = suma(numero_uno, numero_dos)
 print(f'El resultado es: {resultado}')
 print(mensaje)
 
