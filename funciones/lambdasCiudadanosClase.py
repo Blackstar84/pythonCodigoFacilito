@@ -6,7 +6,7 @@ print(centigrados_a_farenheit(-1))
 print(centigrados_a_farenheit(8)) """
 
 # Las funciones en python son ciudadanos de primera clase, puden ser asignadas a variables
-# Las funciones pueden utilizadas como argumentos de otras funciones, e incluso
+# Las funciones pueden ser utilizadas como argumentos de otras funciones, e incluso
 # Las funciones puden retornar otras funciones
 
 # Lo que hacemos aquí es asignar una función a una variable, para esto ponemos el nombre
