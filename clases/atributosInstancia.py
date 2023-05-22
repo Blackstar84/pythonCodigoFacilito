@@ -26,3 +26,5 @@ print(id(Usuario.username))
     objeto, esto mediante un diccionario
 """
 print(user1.__dict__)
+
+print(Usuario.__dict__)
