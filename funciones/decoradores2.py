@@ -85,3 +85,23 @@ def suma(numero_1, numero_2):
 """
 # Que es lo que se encuentra definido dentro de la funcion_c anidada dentro de la función_a
 suma(10, 20)
+
+
+
+# Con esto lo que hacemos es crear la suma de los valores de la tupla y diccionario
+@funcion_a
+def suma2(*args, **kwargs):
+    total = 0
+    
+    # Sumar los valores de *args
+    for arg in args:
+        total += arg
+    
+    # Sumar los valores de **kwargs
+    for key, value in kwargs.items():
+        total += value
+
+    return total
+
+
+suma2(1,2,3,4,5,hola=5, chau=2)
