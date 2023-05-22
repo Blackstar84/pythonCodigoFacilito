@@ -3,7 +3,7 @@
 # Así como vemos en este ejemplo tenemos una función que tiene 2 funciones dentro 
 # a esto es a lo que se le conoce como funciones de dos niveles
 """
-    En este ejemplo lo que hacemos es definir una función de nombre opearación que va a 
+    En este ejemplo lo que hacemos es definir una función de nombre operación que va a 
     recibir 2-3 parámetros siendo el 3er parámetro opcional, que en caso de no pasarle el
     3er parámetro este será por defecto de tipo depósito.
     Dentro de la misma tenemos una validación, que verifica si el parámetro es deposito
