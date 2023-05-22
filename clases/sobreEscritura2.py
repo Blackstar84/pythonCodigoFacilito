@@ -93,4 +93,4 @@ class Gato(Mascota, Felino): # Clase Hija
 
 patricio = Gato('Patricio')
 patricio.comer()
-patricio.dormir()    
+patricio.dormir()
