@@ -23,7 +23,7 @@ def imprimir_animal():
     # En este ejemplo animal = 'León' va a ser modificado por animal = 'Ciervo'
     # Si no utilizamos la palabra global nombreVariableGlobal esto sería una variable LOCAL
     # Si simplemente ponemos animal = 'Ciervo' esto será una variable LOCAL
-    global animal
+    #global animal
 
     animal = 'Ciervo'
     tipo = 'Mamifero' # Variable Local
